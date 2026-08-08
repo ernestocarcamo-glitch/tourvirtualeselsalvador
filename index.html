@@ -1,90 +1,105 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  background-color: #f5f5f5;
-  color: #1C1C1C;
-  line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TurismoRealtor | Tour Virtual 360°</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 15px;
-}
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>TurismoRealtor</h1>
+      <p>Vendo tu propiedad en El Salvador sin que el comprador tenga que viajar.</p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/50375786508?text=Hola%20quiero%20información%20sobre%20los%20tours%20virtuales" class="btn">📲 Escríbeme por WhatsApp</a>
+        <a href="#explicacion" class="btn btn-secondary">¿Qué es un Tour Virtual?</a>
+      </div>
+    </div>
+  </header>
 
-/* Hero con foto de fondo */
-.hero {
-  position: relative;
-  background: url('https://drive.google.com/uc?export=view&id=1SPB-cstUYGMehTpoEhXqn3otFZXNSgOI') no-repeat center center/cover;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-}
+  <!-- Explicación de Tours Virtuales -->
+  <section id="explicacion">
+    <h2>💡 ¿Qué es un Tour Virtual?</h2>
+    <p>Un <strong>Tour Virtual 360°</strong> es la forma más moderna de mostrar propiedades y proyectos turísticos. 
+    A diferencia de las fotos tradicionales, puedes recorrer cada espacio como si caminaras dentro de la propiedad, 
+    girar la vista en todas direcciones, acercarte a los detalles y moverte entre habitaciones con un solo clic.</p>
+    <div class="icons">
+      <div>🔄 Navega en 360°</div>
+      <div>➡️ Hotspots para moverte</div>
+      <div>🔍 Zoom para detalles</div>
+      <div>📱 QR en la propiedad</div>
+    </div>
+    <p>Sirve para:</p>
+    <ul>
+      <li>Mostrar propiedades a clientes en cualquier parte del mundo sin necesidad de viajar.</li>
+      <li>Compartir un link por WhatsApp o redes sociales, disponible las 24 horas.</li>
+      <li>Colocar códigos QR en la propiedad física para que los visitantes exploren más información al instante.</li>
+      <li>Generar confianza y acelerar decisiones de compra o inversión.</li>
+    </ul>
+  </section>
 
-.hero .overlay {
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.5);
-}
+  <!-- Cómo Funciona -->
+  <section id="funciona">
+    <h2>🎥 Cómo funciona</h2>
+    <div class="steps">
+      <div class="step"><h3>1️⃣ Agenda tu cita</h3><p>Escríbeme por WhatsApp y agendamos una videollamada.</p></div>
+      <div class="step"><h3>2️⃣ Tour virtual en vivo</h3><p>Recorre la propiedad en 360° como si estuvieras ahí.</p></div>
+      <div class="step"><h3>3️⃣ Resuelve dudas y decide</h3><p>Generamos renders y opciones en tiempo real.</p></div>
+    </div>
+  </section>
 
-.hero-content {
-  position: relative;
-  z-index: 1;
-}
+  <!-- Tours Destacados -->
+  <section id="tours">
+    <h2>🌐 Tours Virtuales Destacados</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Terreno Vista Lago de Ilopango — Apulo</h3>
+        <a href="https://tour.panoee.net/6a3eef426e7d8a48e6295abb" target="_blank" class="btn">Ver Tour Virtual</a>
+      </div>
+      <div class="card">
+        <h3>Propiedad Soyapango</h3>
+        <a href="#" class="btn">Ver Tour Virtual</a>
+      </div>
+      <div class="card">
+        <h3>Proyecto Apaneca — Locales, Hotel y Eventos</h3>
+        <a href="#" class="btn">Ver Tour Virtual</a>
+      </div>
+      <div class="card">
+        <h3>Tour Virtual D'Altura Eventos</h3>
+        <a href="https://tour.panoee.net/6a710ee4af976605c8b7abfa" target="_blank" class="btn">Ver Tour Virtual</a>
+      </div>
+      <div class="card">
+        <h3>Tour Virtual Urrea Ingeniería</h3>
+        <a href="https://tour.panoee.net/69a50ca0054447698962f27f/69a50d7f0544476cab62f2a1" target="_blank" class="btn">Ver Tour Virtual</a>
+      </div>
+    </div>
+  </section>
 
-.hero h1 {
-  font-size: 2.5em;
-}
+  <!-- Eramon Paradise 360 Glamping -->
+  <section id="eramon">
+    <h2>🏔️ Eramon Paradise 360 Glamping – Domos El Salvador</h2>
+    <p>Este tour virtual es único en El Salvador: combina <strong>experiencia inmersiva</strong> con <strong>reservas y cobros paquetizados</strong>.</p>
+    <ul>
+      <li>🌄 Recorre toda la montaña desde el aire con tomas aéreas de dron.</li>
+      <li>🏕️ Ingresa a los domos glamping y explora cada detalle interior.</li>
+      <li>💳 Sistema integrado de reservas y pagos en línea.</li>
+      <li>🎥 Experiencia 360° completa: vistas panorámicas, senderos y áreas comunes.</li>
+    </ul>
+    <a href="https://ths.li/KDQfwd" target="_blank" class="btn">Explorar Tour Eramon Paradise 360</a>
+  </section>
 
-.hero p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
+  <!-- Contacto -->
+  <footer>
+    <h2>📞 Contáctame</h2>
+    <p>WhatsApp: <a href="https://wa.me/50375786508?text=Hola%20quiero%20información%20sobre%20los%20tours%20virtuales">+503 7578-6508</a></p>
+    <p>Email: <a href="mailto:contacto@turismorealestate.com">contacto@turismorealestate.com</a></p>
+    <p>Dirección: Torre Millenium, 4to Nivel, San Salvador</p>
+  </footer>
 
-/* Botones */
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background: #25D366; /* Verde WhatsApp */
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background: #128C7E;
-}
-
-.btn-secondary {
-  background: #2A4D7A;
-}
-
-.btn-secondary:hover {
-  background: #1C1C1C;
-}
-
-/* Secciones */
-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-section:nth-child(even) {
-  background: #ffffff;
-}
-
-section:nth-child(odd) {
-  background: #f0f0f0;
-}
-
-/* Steps */
-.steps {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.step {
-  background:
+</body>
+</html>
