@@ -12,12 +12,24 @@ h1, h2, h3 {
   margin-bottom: 15px;
 }
 
-/* Hero Section */
+/* Hero con foto de fondo */
 .hero {
-  background: linear-gradient(to right, #1C1C1C, #2A4D7A);
+  position: relative;
+  background: url('../assets/fondo.jpg') no-repeat center center/cover;
   color: white;
   text-align: center;
-  padding: 80px 20px;
+  padding: 100px 20px;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
@@ -27,10 +39,6 @@ h1, h2, h3 {
 .hero p {
   font-size: 1.2em;
   margin-bottom: 20px;
-}
-
-.hero-buttons .btn {
-  margin: 10px;
 }
 
 /* Botones */
@@ -83,7 +91,7 @@ section:nth-child(odd) {
   background: #fff;
   padding: 20px;
   border-radius: 8px;
-  width: 250px;
+  width: 280px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
@@ -110,6 +118,7 @@ section:nth-child(odd) {
   gap: 30px;
   margin: 20px 0;
   font-size: 1.2em;
+  flex-wrap: wrap;
 }
 
 /* Footer */
@@ -127,4 +136,21 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+  .hero p {
+    font-size: 1em;
+  }
+  .steps, .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .step, .card {
+    width: 90%;
+  }
 }
