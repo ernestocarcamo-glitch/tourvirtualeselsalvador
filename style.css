@@ -1,0 +1,130 @@
+/* Tipografía y base */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #1C1C1C;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 15px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #1C1C1C, #2A4D7A);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+  margin: 10px;
+}
+
+/* Botones */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #25D366; /* Verde WhatsApp */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #128C7E;
+}
+
+.btn-secondary {
+  background: #2A4D7A;
+}
+
+.btn-secondary:hover {
+  background: #1C1C1C;
+}
+
+/* Secciones */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background: #ffffff;
+}
+
+section:nth-child(odd) {
+  background: #f0f0f0;
+}
+
+/* Steps */
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Íconos explicativos */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+  background: #1C1C1C;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+footer a {
+  color: #25D366;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
