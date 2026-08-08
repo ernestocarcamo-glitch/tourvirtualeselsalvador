@@ -6,11 +6,20 @@ Tours virtuales 360°, drone 4K, y presentación en vivo por Zoom/Google Meet �
 ---
 
 ## 🚀 ¿Qué encontrarás en esta página?
+- **Header con fotografía de fondo** para un diseño atractivo y profesional.  
 - **Cómo funciona el servicio**: agenda tu cita, recorre la propiedad en vivo y resuelve dudas en tiempo real.  
 - **Explicación clara de los tours virtuales**: qué son, cómo se usan y por qué son mejores que las fotos tradicionales.  
-- **Propiedades destacadas**: terrenos, casas y proyectos turísticos con tours 360° listos para explorar.  
-- **Tecnología de punta**: drones DJI, cámaras Insta360 y renders IA.  
-- **Contacto directo por WhatsApp**: agenda tu tour virtual en segundos.  
+- **Tours destacados actualizados**:  
+  - Terreno Vista Lago de Ilopango — Apulo  
+  - Propiedad Soyapango  
+  - Proyecto Apaneca — Locales, Hotel y Eventos  
+  - Tour Virtual D'Altura Eventos  
+  - Tour Virtual Urrea Ingeniería  
+- **Apartado especial: Eramon Paradise 360 Glamping – Domos El Salvador**  
+  - Sistema de reservas y cobros paquetizados.  
+  - Recorrido aéreo por toda la montaña con tomas de dron.  
+  - Acceso a los domos glamping en 360°.  
+  - Experiencia inmersiva con vistas panorámicas y senderos.  
 
 ---
 
